@@ -1,5 +1,4 @@
 # Terraform-project2
-# Terraform-project2
 # Jenkins Server Deployment on AWS EC2 with Terraform
 
 This repository contains the code and documentation to automate the deployment of a Jenkins server on an Amazon Web Services (AWS) EC2 instance using Terraform. The goal of this project is to set up a Jenkins server that is accessible via the internet on port 80, with SSH access, within a Virtual Private Cloud (VPC).
