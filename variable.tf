@@ -35,7 +35,7 @@ variable "all_trafic_cidr_block" {
 
 # Amazon Linux 2023 AMI in us-east-1
 variable "ami" {
-  default = "ami-0e8a34246278c21e4"
+  default = "ami-05c13eab67c5d8861" # Amazon Linux 2023 AMI
 }
 
 # type of ec2 instance
