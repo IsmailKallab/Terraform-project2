@@ -1,2 +1,2 @@
-name = "ec2"
+name   = "ec2"
 vpc_id = ""
