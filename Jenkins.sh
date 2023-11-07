@@ -1,4 +1,4 @@
-
+# visit the https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/#installing-and-configuring-jenkins
 #!/bin/bash
 sudo yum update -y
 sudo wget -O /etc/yum.repos.d/jenkins.repo \
