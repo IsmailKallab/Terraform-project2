@@ -8,7 +8,7 @@ resource "aws_instance" "Jenkins" {
   availability_zone = var.availability_zones[count.index]
   subnet_id         = aws_subnet.public[count.index].id
   security_groups   = [module.ec2_sg.public_sg_id]
-  user_data         = file("${path.module}/Jenkins.sh")
+  user_data         = templatefile("./jenkins.sh",{})
  
   tags = {
     Name = "Jenkins-${var.instance_name[count.index]}"
